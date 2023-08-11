@@ -1,0 +1,22 @@
+{
+  "conta_cartao": {
+    "cpf": "36082381823",
+    "senha": "091017"
+  },
+
+  "conta_cartao_financiamento": {
+    "cpf": "33336868211",
+    "senha": "103050"
+  },
+
+  "conta_corrente": {
+  "cpf": "99900000420",
+  "senha": "103050"
+  },
+
+  "conta_financiamento": {
+    "cpf": "29721158801",
+    "senha": "091017"
+  }
+
+}

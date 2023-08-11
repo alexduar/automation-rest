@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "requestId": {
+      "type": "string"
+    },
+    "fault": {
+      "type": "object",
+      "properties": {
+        "codigo": {
+          "type": "string"
+        },
+        "tipo": {
+          "type": "string"
+        },
+        "sistemaOrigem": {
+          "type": "string"
+        },
+        "mensagem": {
+          "type": "string"
+        },
+        "servicoOrigem": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "codigo",
+        "tipo",
+        "sistemaOrigem",
+        "mensagem",
+        "servicoOrigem"
+      ]
+    }
+  },
+  "required": [
+    "requestId",
+    "fault"
+  ]
+}
